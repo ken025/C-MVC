@@ -37,3 +37,4 @@
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/demomvc.pdb
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/demomvc.genruntimeconfig.cache
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/demomvc.csproj.CopyComplete
+/Users/kennethmanuel/demomvc/obj/Debug/net5.0/Razor/Views/People/Index.cshtml.g.cs
