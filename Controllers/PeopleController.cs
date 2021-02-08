@@ -15,6 +15,17 @@ namespace demomvc.Controllers
         {
             return View();
         }
+
+        public IActionResult ListPeople()
+        {
+            var people = new List<PersonModel>();
+
+            people.Add(new PersonModel { FirstName = "Ken", LastName = "Colón", Age = 20});
+            people.Add(new PersonModel { FirstName = "Kat", LastName = "Otero", Age = 28});
+            people.Add(new PersonModel { FirstName = "Noni", LastName = "Pagán", Age = 2});
+
+            return View(people);
+        }
     }
     
 }
