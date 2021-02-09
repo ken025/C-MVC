@@ -15623,6 +15623,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/kennethmanuel/demomvc/Views/People/Signup.cshtml",
+      "TargetPath": "Views\\People\\Signup.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/kennethmanuel/demomvc/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

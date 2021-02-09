@@ -39,3 +39,4 @@
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/demomvc.csproj.CopyComplete
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/Razor/Views/People/Index.cshtml.g.cs
 /Users/kennethmanuel/demomvc/obj/Debug/net5.0/Razor/Views/People/ListPeople.cshtml.g.cs
+/Users/kennethmanuel/demomvc/obj/Debug/net5.0/Razor/Views/People/Signup.cshtml.g.cs

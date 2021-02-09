@@ -23,8 +23,16 @@ namespace demomvc.Controllers
             people.Add(new PersonModel { FirstName = "Ken", LastName = "Colón", Age = 20});
             people.Add(new PersonModel { FirstName = "Kat", LastName = "Otero", Age = 28});
             people.Add(new PersonModel { FirstName = "Noni", LastName = "Pagán", Age = 2});
+            people.Add(new PersonModel { FirstName = "Tab", LastName = "Slatton", Age = 26});
 
             return View(people);
+        }
+
+         public IActionResult Signup()
+        {
+            ViewBag.Message = "User Sign Up";
+
+            return View();
         }
     }
     
