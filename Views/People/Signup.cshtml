@@ -8,7 +8,9 @@
 @* @ = razor syntax (allows you to use C# in html)  *@
 @using (Html.BeginForm()) 
 {
-    @* Hidden Field for authentication to increase security *@
+     @Html.AntiForgeryToken()
+     @Html.EditorForModel()
+    @* Hidden Field for authentication to increase security
     @Html.AntiForgeryToken()
       <div class="form-horizontal">
         <h4>Sign Up for Our Online Account</h4>
@@ -66,7 +68,7 @@
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>
-        </div>
+        </div> *@
 }
 
 <div>
