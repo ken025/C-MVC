@@ -34,6 +34,16 @@ namespace demomvc.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+         public IActionResult Signup(PersonModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                 return RedirectToAction("Index");
+            }
+            return View();
     }
-    
+    }
 }
